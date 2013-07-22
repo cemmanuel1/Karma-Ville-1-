@@ -7,6 +7,7 @@ gem 'bcrypt-ruby'
 
 gem 'pg'
 gem 'jquery-rails'
+gem 'will_paginate', '~> 3.0'
 
 group :development do
   gem 'quiet_assets'

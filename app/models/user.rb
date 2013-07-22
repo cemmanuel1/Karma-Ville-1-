@@ -28,4 +28,8 @@ class User < ActiveRecord::Base
   def full_name
     "#{first_name} #{last_name}"
   end
+
+  # def self.page(num)
+  #   self.offset(50 * (num - 1))
+  # end
 end

@@ -9,4 +9,8 @@
   <% @users.each do |user| %>
     <%= render 'user_row', :user => user %>
   <% end %>
+
+  <div style="text-align:center; border: 1px solid grey;">
+    <%= will_paginate @users %>
+  </div>
 </table>
